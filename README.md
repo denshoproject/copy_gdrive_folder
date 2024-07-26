@@ -1,4 +1,4 @@
-# Google Drive Folder Copy (copy_gdrive_folder.py)
+# Google Drive Folder (copy_gdrive_folder.py)
 
 This script -- `copy_gdrive_folder.py` -- recursively copies the contents of a source folder to a temporary location within the organization's Google Drive, and then moves the content to a specified Shared Drive. It uses a Google service account to impersonate a specified user.
 
