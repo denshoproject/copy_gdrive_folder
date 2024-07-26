@@ -1,0 +1,5 @@
+service_account_file: 'path_to_your_service_account.json'
+delegated_user_email: 'user@example.com'
+source_folder_id: 'your_source_folder_id'
+temp_parent_folder_id: 'your_temp_parent_folder_id'
+shared_drive_folder_id: 'your_shared_drive_folder_id'
