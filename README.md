@@ -85,16 +85,6 @@ The script performs the following steps:
 Any failed copy operations are logged to a CSV file named `failed_copies_log_<timestamp>.csv`.
 Errors encountered during file moves are printed to the console.
 
-### Example config.yaml
-
-``` yaml
-service_account_file: 'path_to_your_service_account.json'
-source_folder_id: '1A2B3C4D5E6F'
-temp_parent_folder_id: '7G8H9I0J1K2L'
-shared_drive_folder_id: '3M4N5O6P7Q8R'
-delegated_user_email: 'admin@densho.us'
-```
-
 ## Notes
 Ensure that the service account has the necessary permissions to access the source folder and the Shared Drive.
 The service account must be authorized for domain-wide delegation to impersonate the specified user.
